@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: ;
+    background-color: salmon;
+}
+.dropdown{
+    position: absolute;
+    top: 10px;
+    right:200px ;
+}
+.btn-play{
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    height: 38px;
+    width: 85px;
+    border-radius: 13%;
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	display: flex;
+	height: 100%;
+	background-color: salmon;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	width: 500px;
+	height: 500px;
+	border: 2px solid black;
+}
+
+.cell {
+	border: 2px solid black;
+	height: calc(100% / 8);
+	width: calc(100% / 8);
+}
+
+.cell.active {
+	background-color: gold;
+}
